@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_aHVm8KP_EeS6jbVv0VFO_w">
+  <modelElement href="Employee%20Management%20System2.uml#_Zm0T0qP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_cZ9J0aP_EeS6jbVv0VFO_w" targetItem="_caDQeaP_EeS6jbVv0VFO_w" sourceItem="_cZ9J0KP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_caDQcKP_EeS6jbVv0VFO_w" source="_caDQeaP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z4LJkKP_EeS6jbVv0VFO_w"/>
+    <visualProperties xmi:id="_caJXEKP_EeS6jbVv0VFO_w" position="70.0,70.0"/>
+    <stereotypes xmi:id="_caDQcaP_EeS6jbVv0VFO_w" name="Reference">
+      <modelElement href="Employee%20Management%20System2.uml#_Z4RQMKP_EeS6jbVv0VFO_w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_caDQcqP_EeS6jbVv0VFO_w" text=""/>
+    <sourceRole xmi:id="_caDQc6P_EeS6jbVv0VFO_w" aggregationKind="NONE" name="">
+      <modelElement href="Employee%20Management%20System2.uml#_Z4LJkaP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_caDQdKP_EeS6jbVv0VFO_w" label="+"/>
+      <cardinality xmi:id="_caDQdaP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_caDQdqP_EeS6jbVv0VFO_w" aggregationKind="NONE" name="SQLITE_DRIVER" navigable="true">
+      <modelElement href="Employee%20Management%20System2.uml#_Z2jY8KP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_caDQd6P_EeS6jbVv0VFO_w" label="+"/>
+      <cardinality xmi:id="_caDQeKP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_cZ9J0KP_EeS6jbVv0VFO_w" sourceConnectionVisual="_cZ9J0aP_EeS6jbVv0VFO_w" text="Application main class. Initiate application by calling user controller.&#xA; *&#xA;@author thodoris" item="_caDQeaP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3yvKKP_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_caDQeaP_EeS6jbVv0VFO_w" comments="_cZ9J0KP_EeS6jbVv0VFO_w" targetConnectionVisual="_cZ9J0aP_EeS6jbVv0VFO_w" name="Main" associationsOut="_caDQcKP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Zp3n0KP_EeS6jbVv0VFO_w"/>
+    <visualProperties xmi:id="_caDQeqP_EeS6jbVv0VFO_w" position="50.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_caDQe6P_EeS6jbVv0VFO_w" label="+"/>
+    <attributes xmi:id="_caDQfKP_EeS6jbVv0VFO_w" defaultValue="&quot;Employee Management System&quot;" name="APP_NAME" staticAttribute="true">
+      <modelElement href="Employee%20Management%20System2.uml#_Z2dSUKP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_caDQfaP_EeS6jbVv0VFO_w" label="+"/>
+      <cardinality xmi:id="_caDQfqP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+      <type xmi:id="_caDQf6P_EeS6jbVv0VFO_w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_caDQgKP_EeS6jbVv0VFO_w" defaultValue="new SQLite(&quot;res/db/ems.db&quot;)" name="SQLITE_DRIVER" staticAttribute="true">
+      <modelElement href="Employee%20Management%20System2.uml#_Z2jY8KP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_caDQgaP_EeS6jbVv0VFO_w" label="+"/>
+      <cardinality xmi:id="_caDQgqP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+      <type xmi:id="_caDQg6P_EeS6jbVv0VFO_w" name="SQLite">
+        <modelElement href="Employee%20Management%20System2.uml#_ZtBCcKP_EeS6jbVv0VFO_w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_caDQhKP_EeS6jbVv0VFO_w" name="Main">
+      <modelElement href="Employee%20Management%20System2.uml#_Zp3n0aP_EeS6jbVv0VFO_w"/>
+      <keywords xmi:id="_caDQhaP_EeS6jbVv0VFO_w" keyword="create"/>
+      <visibility xmi:id="_caDQhqP_EeS6jbVv0VFO_w" label="+"/>
+      <outParameters xmi:id="_caDQh6P_EeS6jbVv0VFO_w">
+        <modelElement href="Employee%20Management%20System2.uml#_Zp3n1KP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_caDQiKP_EeS6jbVv0VFO_w" name="Main">
+          <modelElement href="Employee%20Management%20System2.uml#_Zp3n0KP_EeS6jbVv0VFO_w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_caDQiaP_EeS6jbVv0VFO_w" name="createTables">
+      <modelElement href="Employee%20Management%20System2.uml#_Zp3n1aP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_caDQiqP_EeS6jbVv0VFO_w" label="-"/>
+    </operations>
+    <operations xmi:id="_caDQi6P_EeS6jbVv0VFO_w" name="main" staticOperation="true">
+      <modelElement href="Employee%20Management%20System2.uml#_Zp9ucKP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_caDQjKP_EeS6jbVv0VFO_w" label="+"/>
+      <parameters xmi:id="_caDQjaP_EeS6jbVv0VFO_w" name="args">
+        <modelElement href="Employee%20Management%20System2.uml#_Zp9ucaP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_caDQjqP_EeS6jbVv0VFO_w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_caJXEaP_EeS6jbVv0VFO_w" name="contollers">
+    <modelElement href="Employee%20Management%20System2.uml#_Zm0T06P_EeS6jbVv0VFO_w"/>
+    <visualProperties xmi:id="_caJXEqP_EeS6jbVv0VFO_w" position="445.0,129.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_caJXE6P_EeS6jbVv0VFO_w" name="models">
+    <modelElement href="Employee%20Management%20System2.uml#_ZnAhEqP_EeS6jbVv0VFO_w"/>
+    <visualProperties xmi:id="_caJXFKP_EeS6jbVv0VFO_w" position="-109.0,129.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_caPdsKP_EeS6jbVv0VFO_w" name="views">
+    <modelElement href="Employee%20Management%20System2.uml#_ZnAhE6P_EeS6jbVv0VFO_w"/>
+    <visualProperties xmi:id="_caPdsaP_EeS6jbVv0VFO_w" position="595.0,129.0" size="-1.0,-1.0"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_aHJZsaP_EeS6jbVv0VFO_w">
+  <modelElement href="Employee%20Management%20System2.uml#_Zm0T0KP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_acSjQKP_EeS6jbVv0VFO_w" sourceAnchor="281.0,0.0" targetAnchor="0.0,46.0" target="_ack3KKP_EeS6jbVv0VFO_w" source="_ack3KKP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z4vxV6P_EeS6jbVv0VFO_w"/>
+    <visualProperties xmi:id="_aeSuYqP_EeS6jbVv0VFO_w" position="150.0,150.0"/>
+    <bendpoints xmi:id="_b7Jt8KP_EeS6jbVv0VFO_w" sourceY="-97" targetX="281" targetY="-143"/>
+    <bendpoints xmi:id="_b7Jt8aP_EeS6jbVv0VFO_w" sourceX="-415" sourceY="-97" targetX="-134" targetY="-143"/>
+    <bendpoints xmi:id="_b7Jt8qP_EeS6jbVv0VFO_w" sourceX="-415" sourceY="46" targetX="-134"/>
+    <stereotypes xmi:id="_acYp5aP_EeS6jbVv0VFO_w" name="Reference">
+      <modelElement href="Employee%20Management%20System2.uml#_Z4vxWaP_EeS6jbVv0VFO_w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_acYp4qP_EeS6jbVv0VFO_w" text="">
+      <visualProperties xmi:id="_b7Jt96P_EeS6jbVv0VFO_w" position="0.5000000000000568,40.99999999999993"/>
+    </nameVisual>
+    <sourceRole xmi:id="_acYp46P_EeS6jbVv0VFO_w" aggregationKind="NONE" name="">
+      <modelElement href="Employee%20Management%20System2.uml#_Z4vxWKP_EeS6jbVv0VFO_w"/>
+      <visualProperties xmi:id="_b7Jt9qP_EeS6jbVv0VFO_w" position="-15.5,-56.0"/>
+      <visibility xmi:id="_acewgaP_EeS6jbVv0VFO_w" label="+"/>
+      <cardinality xmi:id="_acewgKP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_acYp5KP_EeS6jbVv0VFO_w" aggregationKind="NONE" name="parentController" navigable="true">
+      <modelElement href="Employee%20Management%20System2.uml#_Z27zd6P_EeS6jbVv0VFO_w"/>
+      <visualProperties xmi:id="_b7Jt-KP_EeS6jbVv0VFO_w" position="-103.0,1.9999999999998863"/>
+      <visibility xmi:id="_acewg6P_EeS6jbVv0VFO_w" label="#"/>
+      <cardinality xmi:id="_acewgqP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_acSjQqP_EeS6jbVv0VFO_w" targetItem="_ack3PKP_EeS6jbVv0VFO_w" sourceItem="_acSjQaP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_acSjRKP_EeS6jbVv0VFO_w" targetItem="_ack3RaP_EeS6jbVv0VFO_w" sourceItem="_acSjQ6P_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_acYp4aP_EeS6jbVv0VFO_w" targetItem="_ack3UKP_EeS6jbVv0VFO_w" sourceItem="_acYp4KP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_acewhaP_EeS6jbVv0VFO_w" sourceAnchor="311.0,0.0" targetAnchor="242.0,249.0" target="_aeAagKP_EeS6jbVv0VFO_w" source="_ack3KKP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z4vxUaP_EeS6jbVv0VFO_w"/>
+    <visualProperties xmi:id="_aeSuYKP_EeS6jbVv0VFO_w" position="110.0,110.0"/>
+    <stereotypes xmi:id="_acewhqP_EeS6jbVv0VFO_w" name="Reference">
+      <modelElement href="Employee%20Management%20System2.uml#_Z4vxU6P_EeS6jbVv0VFO_w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_acewh6P_EeS6jbVv0VFO_w" text="">
+      <visualProperties xmi:id="_b7P0kaP_EeS6jbVv0VFO_w" position="2.5,-8.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_acewiKP_EeS6jbVv0VFO_w" aggregationKind="NONE" name="">
+      <modelElement href="Employee%20Management%20System2.uml#_Z4vxUqP_EeS6jbVv0VFO_w"/>
+      <visualProperties xmi:id="_b7P0kKP_EeS6jbVv0VFO_w" position="-16.5,-46.0"/>
+      <visibility xmi:id="_acewiaP_EeS6jbVv0VFO_w" label="+"/>
+      <cardinality xmi:id="_acewiqP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_acewi6P_EeS6jbVv0VFO_w" aggregationKind="NONE" name="parentView" navigable="true">
+      <modelElement href="Employee%20Management%20System2.uml#_Z27zc6P_EeS6jbVv0VFO_w"/>
+      <visualProperties xmi:id="_b7P0kqP_EeS6jbVv0VFO_w" position="2.500000000000057,1.0"/>
+      <visibility xmi:id="_acewjKP_EeS6jbVv0VFO_w" label="#"/>
+      <cardinality xmi:id="_acewjaP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_acewjqP_EeS6jbVv0VFO_w" sourceAnchor="548.0,0.0" targetAnchor="129.0,479.0" target="_adPlgKP_EeS6jbVv0VFO_w" source="_ack3KKP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z4vxVKP_EeS6jbVv0VFO_w"/>
+    <visualProperties xmi:id="_aeSuYaP_EeS6jbVv0VFO_w" position="130.0,130.0"/>
+    <stereotypes xmi:id="_ack3IKP_EeS6jbVv0VFO_w" name="Reference">
+      <modelElement href="Employee%20Management%20System2.uml#_Z4vxVqP_EeS6jbVv0VFO_w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ack3IaP_EeS6jbVv0VFO_w" text="">
+      <visualProperties xmi:id="_b7V7MKP_EeS6jbVv0VFO_w" position="-39.0,-16.399999999999977"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ack3IqP_EeS6jbVv0VFO_w" aggregationKind="NONE" name="">
+      <modelElement href="Employee%20Management%20System2.uml#_Z4vxVaP_EeS6jbVv0VFO_w"/>
+      <visualProperties xmi:id="_b7P0k6P_EeS6jbVv0VFO_w" position="-17.0,-46.0"/>
+      <visibility xmi:id="_ack3I6P_EeS6jbVv0VFO_w" label="+"/>
+      <cardinality xmi:id="_ack3JKP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ack3JaP_EeS6jbVv0VFO_w" aggregationKind="NONE" name="parentModel" navigable="true">
+      <modelElement href="Employee%20Management%20System2.uml#_Z27zdaP_EeS6jbVv0VFO_w"/>
+      <visualProperties xmi:id="_b7V7MaP_EeS6jbVv0VFO_w" position="2.0,1.0"/>
+      <visibility xmi:id="_ack3JqP_EeS6jbVv0VFO_w" label="#"/>
+      <cardinality xmi:id="_ack3J6P_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_acxEYaP_EeS6jbVv0VFO_w" targetItem="_adPloaP_EeS6jbVv0VFO_w" sourceItem="_acxEYKP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ac3LAaP_EeS6jbVv0VFO_w" targetItem="_adPlpaP_EeS6jbVv0VFO_w" sourceItem="_ac3LAKP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ac3LA6P_EeS6jbVv0VFO_w" targetItem="_adPlqaP_EeS6jbVv0VFO_w" sourceItem="_ac3LAqP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ac3LBaP_EeS6jbVv0VFO_w" targetItem="_adPlraP_EeS6jbVv0VFO_w" sourceItem="_ac3LBKP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ac3LB6P_EeS6jbVv0VFO_w" targetItem="_adPlsaP_EeS6jbVv0VFO_w" sourceItem="_ac3LBqP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ac3LCaP_EeS6jbVv0VFO_w" targetItem="_adPltaP_EeS6jbVv0VFO_w" sourceItem="_ac3LCKP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ac3LC6P_EeS6jbVv0VFO_w" targetItem="_adPlt6P_EeS6jbVv0VFO_w" sourceItem="_ac3LCqP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ac3LDaP_EeS6jbVv0VFO_w" targetItem="_adPlvaP_EeS6jbVv0VFO_w" sourceItem="_ac3LDKP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ac9RoaP_EeS6jbVv0VFO_w" targetItem="_adPlw6P_EeS6jbVv0VFO_w" sourceItem="_ac9RoKP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ac9Ro6P_EeS6jbVv0VFO_w" targetItem="_adPlyqP_EeS6jbVv0VFO_w" sourceItem="_ac9RoqP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ac9RpaP_EeS6jbVv0VFO_w" targetItem="_adPlzqP_EeS6jbVv0VFO_w" sourceItem="_ac9RpKP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ac9Rp6P_EeS6jbVv0VFO_w" targetItem="_adPl1KP_EeS6jbVv0VFO_w" sourceItem="_ac9RpqP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ac9RqaP_EeS6jbVv0VFO_w" targetItem="_adPl1qP_EeS6jbVv0VFO_w" sourceItem="_ac9RqKP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ac9Rq6P_EeS6jbVv0VFO_w" targetItem="_adPl2KP_EeS6jbVv0VFO_w" sourceItem="_ac9RqqP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ac9RraP_EeS6jbVv0VFO_w" targetItem="_adPl2qP_EeS6jbVv0VFO_w" sourceItem="_ac9RrKP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ac9Rr6P_EeS6jbVv0VFO_w" targetItem="_adPl3KP_EeS6jbVv0VFO_w" sourceItem="_ac9RrqP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_adDYQaP_EeS6jbVv0VFO_w" targetItem="_adPl4KP_EeS6jbVv0VFO_w" sourceItem="_adDYQKP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_adDYQ6P_EeS6jbVv0VFO_w" targetItem="_adPl66P_EeS6jbVv0VFO_w" sourceItem="_adDYQqP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_adJe4KP_EeS6jbVv0VFO_w" source="_adPlgKP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z4vxWqP_EeS6jbVv0VFO_w"/>
+    <visualProperties xmi:id="_aeSuY6P_EeS6jbVv0VFO_w" position="170.0,170.0"/>
+    <stereotypes xmi:id="_adJe4aP_EeS6jbVv0VFO_w" name="Reference">
+      <modelElement href="Employee%20Management%20System2.uml#_Z4vxXKP_EeS6jbVv0VFO_w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_adJe4qP_EeS6jbVv0VFO_w" text=""/>
+    <sourceRole xmi:id="_adJe46P_EeS6jbVv0VFO_w" aggregationKind="NONE" name="">
+      <modelElement href="Employee%20Management%20System2.uml#_Z4vxW6P_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_adJe5KP_EeS6jbVv0VFO_w" label="+"/>
+      <cardinality xmi:id="_adJe5aP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_adJe5qP_EeS6jbVv0VFO_w" aggregationKind="NONE" name="conn" navigable="true">
+      <modelElement href="Employee%20Management%20System2.uml#_Z27zeaP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_adJe56P_EeS6jbVv0VFO_w" label="-"/>
+      <cardinality xmi:id="_adJe6KP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_adJe6aP_EeS6jbVv0VFO_w" source="_adPlgKP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z4vxXaP_EeS6jbVv0VFO_w"/>
+    <visualProperties xmi:id="_aeSuZKP_EeS6jbVv0VFO_w" position="190.0,190.0"/>
+    <stereotypes xmi:id="_adJe6qP_EeS6jbVv0VFO_w" name="Reference">
+      <modelElement href="Employee%20Management%20System2.uml#_Z4vxX6P_EeS6jbVv0VFO_w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_adJe66P_EeS6jbVv0VFO_w" text=""/>
+    <sourceRole xmi:id="_adJe7KP_EeS6jbVv0VFO_w" aggregationKind="NONE" name="">
+      <modelElement href="Employee%20Management%20System2.uml#_Z4vxXqP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_adJe7aP_EeS6jbVv0VFO_w" label="+"/>
+      <cardinality xmi:id="_adJe7qP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_adJe76P_EeS6jbVv0VFO_w" aggregationKind="NONE" name="sql" navigable="true">
+      <modelElement href="Employee%20Management%20System2.uml#_Z3B6EaP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_adJe8KP_EeS6jbVv0VFO_w" label="-"/>
+      <cardinality xmi:id="_adJe8aP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_adJe8qP_EeS6jbVv0VFO_w" source="_adPlgKP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z4vxYKP_EeS6jbVv0VFO_w"/>
+    <visualProperties xmi:id="_aeSuZaP_EeS6jbVv0VFO_w" position="210.0,210.0"/>
+    <stereotypes xmi:id="_adJe86P_EeS6jbVv0VFO_w" name="Reference">
+      <modelElement href="Employee%20Management%20System2.uml#_Z4vxYqP_EeS6jbVv0VFO_w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_adJe9KP_EeS6jbVv0VFO_w" text=""/>
+    <sourceRole xmi:id="_adJe9aP_EeS6jbVv0VFO_w" aggregationKind="NONE" name="">
+      <modelElement href="Employee%20Management%20System2.uml#_Z4vxYaP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_adJe9qP_EeS6jbVv0VFO_w" label="+"/>
+      <cardinality xmi:id="_adJe96P_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_adJe-KP_EeS6jbVv0VFO_w" aggregationKind="NONE" name="data" navigable="true">
+      <modelElement href="Employee%20Management%20System2.uml#_Z3B6F6P_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_adJe-aP_EeS6jbVv0VFO_w" label="-"/>
+      <cardinality xmi:id="_adJe-qP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_aduGoKP_EeS6jbVv0VFO_w" sourceAnchor="136.0,0.0" targetAnchor="0.0,125.0" target="_aeAagKP_EeS6jbVv0VFO_w" source="_aeAagKP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z4vxY6P_EeS6jbVv0VFO_w"/>
+    <visualProperties xmi:id="_aeSuZqP_EeS6jbVv0VFO_w" position="230.0,230.0"/>
+    <bendpoints xmi:id="_b7Jt86P_EeS6jbVv0VFO_w" sourceY="-96" targetX="136" targetY="-221"/>
+    <bendpoints xmi:id="_b7Jt9KP_EeS6jbVv0VFO_w" sourceX="-247" sourceY="-96" targetX="-111" targetY="-221"/>
+    <bendpoints xmi:id="_b7Jt9aP_EeS6jbVv0VFO_w" sourceX="-247" sourceY="125" targetX="-111"/>
+    <stereotypes xmi:id="_ad0NR6P_EeS6jbVv0VFO_w" name="Reference">
+      <modelElement href="Employee%20Management%20System2.uml#_Z4138KP_EeS6jbVv0VFO_w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ad0NRKP_EeS6jbVv0VFO_w" text="">
+      <visualProperties xmi:id="_b7V7M6P_EeS6jbVv0VFO_w" position="1.4999999999999716,162.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_ad0NRaP_EeS6jbVv0VFO_w" aggregationKind="NONE" name="">
+      <modelElement href="Employee%20Management%20System2.uml#_Z4vxZKP_EeS6jbVv0VFO_w"/>
+      <visualProperties xmi:id="_b7V7MqP_EeS6jbVv0VFO_w" position="-15.5,-55.5"/>
+      <visibility xmi:id="_ad0NSaP_EeS6jbVv0VFO_w" label="+"/>
+      <cardinality xmi:id="_ad0NSKP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ad0NRqP_EeS6jbVv0VFO_w" aggregationKind="NONE" name="parentView" navigable="true">
+      <modelElement href="Employee%20Management%20System2.uml#_Z3IAsKP_EeS6jbVv0VFO_w"/>
+      <visualProperties xmi:id="_b7V7NKP_EeS6jbVv0VFO_w" position="-75.0,1.5000000000000284"/>
+      <visibility xmi:id="_ad0NS6P_EeS6jbVv0VFO_w" label="#"/>
+      <cardinality xmi:id="_ad0NSqP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_aduGoqP_EeS6jbVv0VFO_w" targetItem="_aeAam6P_EeS6jbVv0VFO_w" sourceItem="_aduGoaP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_aduGpKP_EeS6jbVv0VFO_w" targetItem="_aeAanqP_EeS6jbVv0VFO_w" sourceItem="_aduGo6P_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_aduGpqP_EeS6jbVv0VFO_w" targetItem="_aeAao6P_EeS6jbVv0VFO_w" sourceItem="_aduGpaP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ad0NQaP_EeS6jbVv0VFO_w" targetItem="_aeAaqKP_EeS6jbVv0VFO_w" sourceItem="_ad0NQKP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_ad0NQ6P_EeS6jbVv0VFO_w" targetItem="_aeAar6P_EeS6jbVv0VFO_w" sourceItem="_ad0NQqP_EeS6jbVv0VFO_w"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ad6T4KP_EeS6jbVv0VFO_w" source="_aeAagKP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z4138aP_EeS6jbVv0VFO_w"/>
+    <visualProperties xmi:id="_aeSuZ6P_EeS6jbVv0VFO_w" position="250.0,250.0"/>
+    <stereotypes xmi:id="_ad6T4aP_EeS6jbVv0VFO_w" name="Reference">
+      <modelElement href="Employee%20Management%20System2.uml#_Z41386P_EeS6jbVv0VFO_w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ad6T4qP_EeS6jbVv0VFO_w" text=""/>
+    <sourceRole xmi:id="_ad6T46P_EeS6jbVv0VFO_w" aggregationKind="NONE" name="">
+      <modelElement href="Employee%20Management%20System2.uml#_Z4138qP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_ad6T5KP_EeS6jbVv0VFO_w" label="+"/>
+      <cardinality xmi:id="_ad6T5aP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ad6T5qP_EeS6jbVv0VFO_w" aggregationKind="NONE" name="screenSize" navigable="true">
+      <modelElement href="Employee%20Management%20System2.uml#_Z3IAsaP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_ad6T56P_EeS6jbVv0VFO_w" label="#"/>
+      <cardinality xmi:id="_ad6T6KP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ad6T6aP_EeS6jbVv0VFO_w" source="_aeAagKP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z4139KP_EeS6jbVv0VFO_w"/>
+    <visualProperties xmi:id="_aeSuaKP_EeS6jbVv0VFO_w" position="270.0,270.0"/>
+    <stereotypes xmi:id="_ad6T6qP_EeS6jbVv0VFO_w" name="Reference">
+      <modelElement href="Employee%20Management%20System2.uml#_Z4139qP_EeS6jbVv0VFO_w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ad6T66P_EeS6jbVv0VFO_w" text=""/>
+    <sourceRole xmi:id="_ad6T7KP_EeS6jbVv0VFO_w" aggregationKind="NONE" name="">
+      <modelElement href="Employee%20Management%20System2.uml#_Z4139aP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_ad6T7aP_EeS6jbVv0VFO_w" label="+"/>
+      <cardinality xmi:id="_ad6T7qP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ad6T76P_EeS6jbVv0VFO_w" aggregationKind="NONE" name="mainConstraints" navigable="true">
+      <modelElement href="Employee%20Management%20System2.uml#_Z3IAsqP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_ad6T8KP_EeS6jbVv0VFO_w" label="#"/>
+      <cardinality xmi:id="_ad6T8aP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ad6T8qP_EeS6jbVv0VFO_w" source="_aeAagKP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z41396P_EeS6jbVv0VFO_w"/>
+    <visualProperties xmi:id="_aeSuaaP_EeS6jbVv0VFO_w" position="290.0,290.0"/>
+    <stereotypes xmi:id="_ad6T86P_EeS6jbVv0VFO_w" name="Reference">
+      <modelElement href="Employee%20Management%20System2.uml#_Z413-aP_EeS6jbVv0VFO_w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ad6T9KP_EeS6jbVv0VFO_w" text=""/>
+    <sourceRole xmi:id="_ad6T9aP_EeS6jbVv0VFO_w" aggregationKind="NONE" name="">
+      <modelElement href="Employee%20Management%20System2.uml#_Z413-KP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_ad6T9qP_EeS6jbVv0VFO_w" label="+"/>
+      <cardinality xmi:id="_ad6T96P_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ad6T-KP_EeS6jbVv0VFO_w" aggregationKind="NONE" name="mainLayout" navigable="true">
+      <modelElement href="Employee%20Management%20System2.uml#_Z3IAs6P_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_ad6T-aP_EeS6jbVv0VFO_w" label="#"/>
+      <cardinality xmi:id="_ad6T-qP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_ad6T-6P_EeS6jbVv0VFO_w" source="_aeAagKP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z413-qP_EeS6jbVv0VFO_w"/>
+    <visualProperties xmi:id="_aeSuaqP_EeS6jbVv0VFO_w" position="310.0,310.0"/>
+    <stereotypes xmi:id="_ad6T_KP_EeS6jbVv0VFO_w" name="Reference">
+      <modelElement href="Employee%20Management%20System2.uml#_Z413_KP_EeS6jbVv0VFO_w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_ad6T_aP_EeS6jbVv0VFO_w" text=""/>
+    <sourceRole xmi:id="_ad6T_qP_EeS6jbVv0VFO_w" aggregationKind="NONE" name="">
+      <modelElement href="Employee%20Management%20System2.uml#_Z413-6P_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_ad6T_6P_EeS6jbVv0VFO_w" label="+"/>
+      <cardinality xmi:id="_ad6UAKP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_ad6UAaP_EeS6jbVv0VFO_w" aggregationKind="NONE" name="mainPanel" navigable="true">
+      <modelElement href="Employee%20Management%20System2.uml#_Z3IAtKP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_ad6UAqP_EeS6jbVv0VFO_w" label="#"/>
+      <cardinality xmi:id="_ad6UA6P_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_acSjQaP_EeS6jbVv0VFO_w" sourceConnectionVisual="_acSjQqP_EeS6jbVv0VFO_w" text="&#xA;&#x9; * @param parentModel&#xA;&#x9; * @param parentView" item="_ack3PKP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8VaP_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_acSjQ6P_EeS6jbVv0VFO_w" sourceConnectionVisual="_acSjRKP_EeS6jbVv0VFO_w" text="&#xA;&#x9; * @param parentModel&#xA;&#x9; * @param parentView&#xA;&#x9; * @param parentController" item="_ack3RaP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8VqP_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_acYp4KP_EeS6jbVv0VFO_w" sourceConnectionVisual="_acYp4aP_EeS6jbVv0VFO_w" text="&#xA;&#x9; * @param parentController" item="_ack3UKP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8V6P_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_acxEYKP_EeS6jbVv0VFO_w" sourceConnectionVisual="_acxEYaP_EeS6jbVv0VFO_w" text="Get Connection object.&#xA;&#x9; *&#xA;&#x9; * @return" item="_adPloaP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8WaP_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ac3LAKP_EeS6jbVv0VFO_w" sourceConnectionVisual="_ac3LAaP_EeS6jbVv0VFO_w" text="Get SqlBuilder object.&#xA;&#x9; *&#xA;&#x9; * @return" item="_adPlpaP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8WqP_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ac3LAqP_EeS6jbVv0VFO_w" sourceConnectionVisual="_ac3LA6P_EeS6jbVv0VFO_w" text="Get table name&#xA;&#x9; *&#xA;&#x9; * @return" item="_adPlqaP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8W6P_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ac3LBKP_EeS6jbVv0VFO_w" sourceConnectionVisual="_ac3LBaP_EeS6jbVv0VFO_w" text="Get primary key name&#xA;&#x9; *&#xA;&#x9; * @return" item="_adPlraP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8XKP_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ac3LBqP_EeS6jbVv0VFO_w" sourceConnectionVisual="_ac3LB6P_EeS6jbVv0VFO_w" text="If data is empty then model is empty. How smart am i? :D&#xA;&#x9; *&#xA;&#x9; * @return" item="_adPlsaP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8XaP_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ac3LCKP_EeS6jbVv0VFO_w" sourceConnectionVisual="_ac3LCaP_EeS6jbVv0VFO_w" text="Clear data." item="_adPltaP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8XqP_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ac3LCqP_EeS6jbVv0VFO_w" sourceConnectionVisual="_ac3LC6P_EeS6jbVv0VFO_w" text="Set model data value.&#xA;&#x9; *&#xA;&#x9; * @param key&#xA;&#x9; * @param value" item="_adPlt6P_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8YKP_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ac3LDKP_EeS6jbVv0VFO_w" sourceConnectionVisual="_ac3LDaP_EeS6jbVv0VFO_w" text="Get model data value.&#xA;&#x9; *&#xA;&#x9; * @param key&#xA;&#x9; * @return String" item="_adPlvaP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8YaP_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ac9RoKP_EeS6jbVv0VFO_w" sourceConnectionVisual="_ac9RoaP_EeS6jbVv0VFO_w" text="Get a vector of model&#xA;&#x9; *&#xA;&#x9; * @param where&#xA;&#x9; * @return" item="_adPlw6P_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8YqP_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ac9RoqP_EeS6jbVv0VFO_w" sourceConnectionVisual="_ac9Ro6P_EeS6jbVv0VFO_w" text="Load model data by primary key value.&#xA;&#x9; *&#xA;&#x9; * @param pkValue" item="_adPlyqP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8Y6P_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ac9RpKP_EeS6jbVv0VFO_w" sourceConnectionVisual="_ac9RpaP_EeS6jbVv0VFO_w" text="Check if a record already exists.&#xA;&#x9; *&#xA;&#x9; * @param where&#xA;&#x9; * @return String primary key value." item="_adPlzqP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8ZKP_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ac9RpqP_EeS6jbVv0VFO_w" sourceConnectionVisual="_ac9Rp6P_EeS6jbVv0VFO_w" text="Save data. Insert if record already exists, update otherwise." item="_adPl1KP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8ZaP_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ac9RqKP_EeS6jbVv0VFO_w" sourceConnectionVisual="_ac9RqaP_EeS6jbVv0VFO_w" text="Delete record from table." item="_adPl1qP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8ZqP_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ac9RqqP_EeS6jbVv0VFO_w" sourceConnectionVisual="_ac9Rq6P_EeS6jbVv0VFO_w" text="Insert record to table." item="_adPl2KP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8Z6P_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ac9RrKP_EeS6jbVv0VFO_w" sourceConnectionVisual="_ac9RraP_EeS6jbVv0VFO_w" text="Update record in the table." item="_adPl2qP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8aKP_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ac9RrqP_EeS6jbVv0VFO_w" sourceConnectionVisual="_ac9Rr6P_EeS6jbVv0VFO_w" text="Execute update queries.&#xA;&#x9; *&#xA;&#x9; * @param query" item="_adPl3KP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8aaP_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_adDYQKP_EeS6jbVv0VFO_w" sourceConnectionVisual="_adDYQaP_EeS6jbVv0VFO_w" text="Model constructor.&#xA;&#x9; *&#xA;&#x9; * @param conn&#xA;&#x9; * @param tblName&#xA;&#x9; * @param pkName" item="_adPl4KP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8WKP_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_adDYQqP_EeS6jbVv0VFO_w" sourceConnectionVisual="_adDYQ6P_EeS6jbVv0VFO_w" text="Set model data.&#xA;&#x9; *&#xA;&#x9; * @param data" item="_adPl66P_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8X6P_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_aduGoaP_EeS6jbVv0VFO_w" sourceConnectionVisual="_aduGoqP_EeS6jbVv0VFO_w" text="Center window on the screen." item="_aeAam6P_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8bKP_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_aduGo6P_EeS6jbVv0VFO_w" sourceConnectionVisual="_aduGpKP_EeS6jbVv0VFO_w" text="Show error dialog.&#xA;&#x9; *&#xA;&#x9; * @param msg" item="_aeAanqP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8baP_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_aduGpaP_EeS6jbVv0VFO_w" sourceConnectionVisual="_aduGpqP_EeS6jbVv0VFO_w" text="Show success dialog.&#xA;&#x9; *&#xA;&#x9; * @param msg" item="_aeAao6P_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8bqP_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ad0NQKP_EeS6jbVv0VFO_w" sourceConnectionVisual="_ad0NQaP_EeS6jbVv0VFO_w" text="Show warning dialog.&#xA;&#x9; *&#xA;&#x9; * @param msg&#xA;&#x9; * @return boolean Confirm result." item="_aeAaqKP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8b6P_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_ad0NQqP_EeS6jbVv0VFO_w" sourceConnectionVisual="_ad0NQ6P_EeS6jbVv0VFO_w" text="*&#xA;&#x9; * @param parentView" item="_aeAar6P_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Z3-8a6P_EeS6jbVv0VFO_w"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_ack3KKP_EeS6jbVv0VFO_w" name="Controller" associationsIn="_acSjQKP_EeS6jbVv0VFO_w" associationsOut="_acSjQKP_EeS6jbVv0VFO_w _acewhaP_EeS6jbVv0VFO_w _acewjqP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_ZrxsUKP_EeS6jbVv0VFO_w"/>
+    <visualProperties xmi:id="_ack3KaP_EeS6jbVv0VFO_w" position="50.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_ack3KqP_EeS6jbVv0VFO_w" label="+"/>
+    <attributes xmi:id="_ack3K6P_EeS6jbVv0VFO_w" name="parentView">
+      <modelElement href="Employee%20Management%20System2.uml#_Z27zc6P_EeS6jbVv0VFO_w"/>
+      <stereotypes xmi:id="_ack3LKP_EeS6jbVv0VFO_w" name="LegacyStyledElement">
+        <modelElement href="Employee%20Management%20System2.uml#_Z27zdKP_EeS6jbVv0VFO_w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ack3LaP_EeS6jbVv0VFO_w" name="LegacyStyledElement">
+        <modelElement href="Employee%20Management%20System2.uml#_Z27zdKP_EeS6jbVv0VFO_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ack3LqP_EeS6jbVv0VFO_w" label="#"/>
+      <cardinality xmi:id="_ack3L6P_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ack3MKP_EeS6jbVv0VFO_w" name="View">
+        <modelElement href="Employee%20Management%20System2.uml#_ZsWUEKP_EeS6jbVv0VFO_w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ack3MaP_EeS6jbVv0VFO_w" name="parentModel">
+      <modelElement href="Employee%20Management%20System2.uml#_Z27zdaP_EeS6jbVv0VFO_w"/>
+      <stereotypes xmi:id="_ack3MqP_EeS6jbVv0VFO_w" name="LegacyStyledElement">
+        <modelElement href="Employee%20Management%20System2.uml#_Z27zdqP_EeS6jbVv0VFO_w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_ack3M6P_EeS6jbVv0VFO_w" name="LegacyStyledElement">
+        <modelElement href="Employee%20Management%20System2.uml#_Z27zdqP_EeS6jbVv0VFO_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ack3NKP_EeS6jbVv0VFO_w" label="#"/>
+      <cardinality xmi:id="_ack3NaP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ack3NqP_EeS6jbVv0VFO_w" name="Model">
+        <modelElement href="Employee%20Management%20System2.uml#_Zr95kKP_EeS6jbVv0VFO_w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_ack3N6P_EeS6jbVv0VFO_w" name="parentController">
+      <modelElement href="Employee%20Management%20System2.uml#_Z27zd6P_EeS6jbVv0VFO_w"/>
+      <stereotypes xmi:id="_ack3OKP_EeS6jbVv0VFO_w" name="LegacyStyledElement">
+        <modelElement href="Employee%20Management%20System2.uml#_Z27zeKP_EeS6jbVv0VFO_w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_acewhKP_EeS6jbVv0VFO_w" name="LegacyStyledElement">
+        <modelElement href="Employee%20Management%20System2.uml#_Z27zeKP_EeS6jbVv0VFO_w"/>
+      </stereotypes>
+      <visibility xmi:id="_ack3OaP_EeS6jbVv0VFO_w" label="#"/>
+      <cardinality xmi:id="_ack3OqP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+      <type xmi:id="_ack3O6P_EeS6jbVv0VFO_w" name="Controller">
+        <modelElement href="Employee%20Management%20System2.uml#_ZrxsUKP_EeS6jbVv0VFO_w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_ack3PKP_EeS6jbVv0VFO_w" comments="_acSjQaP_EeS6jbVv0VFO_w" targetConnectionVisual="_acSjQqP_EeS6jbVv0VFO_w" name="Controller">
+      <modelElement href="Employee%20Management%20System2.uml#_Z1N8MKP_EeS6jbVv0VFO_w"/>
+      <keywords xmi:id="_ack3PaP_EeS6jbVv0VFO_w" keyword="create"/>
+      <visibility xmi:id="_ack3PqP_EeS6jbVv0VFO_w" label="+"/>
+      <outParameters xmi:id="_ack3P6P_EeS6jbVv0VFO_w">
+        <modelElement href="Employee%20Management%20System2.uml#_Z1N8NaP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_ack3QKP_EeS6jbVv0VFO_w" name="Controller">
+          <modelElement href="Employee%20Management%20System2.uml#_ZrxsUKP_EeS6jbVv0VFO_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ack3QaP_EeS6jbVv0VFO_w" name="parentModel">
+        <modelElement href="Employee%20Management%20System2.uml#_Z1N8MaP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_ack3QqP_EeS6jbVv0VFO_w" name="Model">
+          <modelElement href="Employee%20Management%20System2.uml#_Zr95kKP_EeS6jbVv0VFO_w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ack3Q6P_EeS6jbVv0VFO_w" name="parentView">
+        <modelElement href="Employee%20Management%20System2.uml#_Z1N8MqP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_ack3RKP_EeS6jbVv0VFO_w" name="View">
+          <modelElement href="Employee%20Management%20System2.uml#_ZsWUEKP_EeS6jbVv0VFO_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ack3RaP_EeS6jbVv0VFO_w" comments="_acSjQ6P_EeS6jbVv0VFO_w" targetConnectionVisual="_acSjRKP_EeS6jbVv0VFO_w" name="Controller">
+      <modelElement href="Employee%20Management%20System2.uml#_Z1N8NqP_EeS6jbVv0VFO_w"/>
+      <keywords xmi:id="_ack3RqP_EeS6jbVv0VFO_w" keyword="create"/>
+      <visibility xmi:id="_ack3R6P_EeS6jbVv0VFO_w" label="+"/>
+      <outParameters xmi:id="_ack3SKP_EeS6jbVv0VFO_w">
+        <modelElement href="Employee%20Management%20System2.uml#_Z1N8PKP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_ack3SaP_EeS6jbVv0VFO_w" name="Controller">
+          <modelElement href="Employee%20Management%20System2.uml#_ZrxsUKP_EeS6jbVv0VFO_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_ack3SqP_EeS6jbVv0VFO_w" name="parentModel">
+        <modelElement href="Employee%20Management%20System2.uml#_Z1N8N6P_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_ack3S6P_EeS6jbVv0VFO_w" name="Model">
+          <modelElement href="Employee%20Management%20System2.uml#_Zr95kKP_EeS6jbVv0VFO_w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ack3TKP_EeS6jbVv0VFO_w" name="parentView">
+        <modelElement href="Employee%20Management%20System2.uml#_Z1N8OKP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_ack3TaP_EeS6jbVv0VFO_w" name="View">
+          <modelElement href="Employee%20Management%20System2.uml#_ZsWUEKP_EeS6jbVv0VFO_w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_ack3TqP_EeS6jbVv0VFO_w" name="parentController">
+        <modelElement href="Employee%20Management%20System2.uml#_Z1N8OaP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_ack3T6P_EeS6jbVv0VFO_w" name="Controller">
+          <modelElement href="Employee%20Management%20System2.uml#_ZrxsUKP_EeS6jbVv0VFO_w"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ack3UKP_EeS6jbVv0VFO_w" comments="_acYp4KP_EeS6jbVv0VFO_w" targetConnectionVisual="_acYp4aP_EeS6jbVv0VFO_w" name="setParentController">
+      <modelElement href="Employee%20Management%20System2.uml#_Z1N8PaP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_ack3UaP_EeS6jbVv0VFO_w" label="+"/>
+      <parameters xmi:id="_ack3UqP_EeS6jbVv0VFO_w" name="parentController">
+        <modelElement href="Employee%20Management%20System2.uml#_Z1N8PqP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_ack3U6P_EeS6jbVv0VFO_w" name="Controller">
+          <modelElement href="Employee%20Management%20System2.uml#_ZrxsUKP_EeS6jbVv0VFO_w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_adPlgKP_EeS6jbVv0VFO_w" name="Model" associationsIn="_acewjqP_EeS6jbVv0VFO_w" associationsOut="_adJe4KP_EeS6jbVv0VFO_w _adJe6aP_EeS6jbVv0VFO_w _adJe8qP_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_Zr95kKP_EeS6jbVv0VFO_w"/>
+    <visualProperties xmi:id="_adPlgaP_EeS6jbVv0VFO_w" position="469.0,-532.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_adPlgqP_EeS6jbVv0VFO_w" label="+"/>
+    <attributes xmi:id="_adPlg6P_EeS6jbVv0VFO_w" name="conn">
+      <modelElement href="Employee%20Management%20System2.uml#_Z27zeaP_EeS6jbVv0VFO_w"/>
+      <stereotypes xmi:id="_adPlhKP_EeS6jbVv0VFO_w" name="LegacyStyledElement">
+        <modelElement href="Employee%20Management%20System2.uml#_Z3B6EKP_EeS6jbVv0VFO_w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_adPlhaP_EeS6jbVv0VFO_w" name="LegacyStyledElement">
+        <modelElement href="Employee%20Management%20System2.uml#_Z3B6EKP_EeS6jbVv0VFO_w"/>
+      </stereotypes>
+      <visibility xmi:id="_adPlhqP_EeS6jbVv0VFO_w" label="-"/>
+      <cardinality xmi:id="_adPlh6P_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+      <type xmi:id="_adPliKP_EeS6jbVv0VFO_w" name="Connection">
+        <modelElement href="Employee%20Management%20System2.uml#_Z0KzV6P_EeS6jbVv0VFO_w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_adPliaP_EeS6jbVv0VFO_w" name="sql">
+      <modelElement href="Employee%20Management%20System2.uml#_Z3B6EaP_EeS6jbVv0VFO_w"/>
+      <stereotypes xmi:id="_adPliqP_EeS6jbVv0VFO_w" name="LegacyStyledElement">
+        <modelElement href="Employee%20Management%20System2.uml#_Z3B6EqP_EeS6jbVv0VFO_w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_adPli6P_EeS6jbVv0VFO_w" name="LegacyStyledElement">
+        <modelElement href="Employee%20Management%20System2.uml#_Z3B6EqP_EeS6jbVv0VFO_w"/>
+      </stereotypes>
+      <visibility xmi:id="_adPljKP_EeS6jbVv0VFO_w" label="-"/>
+      <cardinality xmi:id="_adPljaP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+      <type xmi:id="_adPljqP_EeS6jbVv0VFO_w" name="SQLBuilder">
+        <modelElement href="Employee%20Management%20System2.uml#_ZsuukKP_EeS6jbVv0VFO_w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_adPlj6P_EeS6jbVv0VFO_w" name="tblName">
+      <modelElement href="Employee%20Management%20System2.uml#_Z3B6E6P_EeS6jbVv0VFO_w"/>
+      <stereotypes xmi:id="_adPlkKP_EeS6jbVv0VFO_w" name="LegacyStyledElement">
+        <modelElement href="Employee%20Management%20System2.uml#_Z3B6FKP_EeS6jbVv0VFO_w"/>
+      </stereotypes>
+      <visibility xmi:id="_adPlkaP_EeS6jbVv0VFO_w" label="-"/>
+      <cardinality xmi:id="_adPlkqP_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+      <type xmi:id="_adPlk6P_EeS6jbVv0VFO_w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_adPllKP_EeS6jbVv0VFO_w" name="pkName">
+      <modelElement href="Employee%20Management%20System2.uml#_Z3B6FaP_EeS6jbVv0VFO_w"/>
+      <stereotypes xmi:id="_adPllaP_EeS6jbVv0VFO_w" name="LegacyStyledElement">
+        <modelElement href="Employee%20Management%20System2.uml#_Z3B6FqP_EeS6jbVv0VFO_w"/>
+      </stereotypes>
+      <visibility xmi:id="_adPllqP_EeS6jbVv0VFO_w" label="-"/>
+      <cardinality xmi:id="_adPll6P_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+      <type xmi:id="_adPlmKP_EeS6jbVv0VFO_w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_adPlmaP_EeS6jbVv0VFO_w" name="data">
+      <modelElement href="Employee%20Management%20System2.uml#_Z3B6F6P_EeS6jbVv0VFO_w"/>
+      <stereotypes xmi:id="_adPlmqP_EeS6jbVv0VFO_w" name="Generics">
+        <modelElement href="Employee%20Management%20System2.uml#_Z3B6GKP_EeS6jbVv0VFO_w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_adPlm6P_EeS6jbVv0VFO_w" name="LegacyStyledElement">
+        <modelElement href="Employee%20Management%20System2.uml#_Z3B6GaP_EeS6jbVv0VFO_w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_adPlnKP_EeS6jbVv0VFO_w" name="Generics">
+        <modelElement href="Employee%20Management%20System2.uml#_Z3B6GKP_EeS6jbVv0VFO_w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_adPlnaP_EeS6jbVv0VFO_w" name="LegacyStyledElement">
+        <modelElement href="Employee%20Management%20System2.uml#_Z3B6GaP_EeS6jbVv0VFO_w"/>
+      </stereotypes>
+      <visibility xmi:id="_adPlnqP_EeS6jbVv0VFO_w" label="-"/>
+      <cardinality xmi:id="_adPln6P_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+      <type xmi:id="_adPloKP_EeS6jbVv0VFO_w" name="HashMap">
+        <modelElement href="Employee%20Management%20System2.uml#_Z0pUcqP_EeS6jbVv0VFO_w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_adPloaP_EeS6jbVv0VFO_w" comments="_acxEYKP_EeS6jbVv0VFO_w" targetConnectionVisual="_acxEYaP_EeS6jbVv0VFO_w" name="getConnection">
+      <modelElement href="Employee%20Management%20System2.uml#_Zr95kaP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_adPloqP_EeS6jbVv0VFO_w" label="+"/>
+      <outParameters xmi:id="_adPlo6P_EeS6jbVv0VFO_w">
+        <modelElement href="Employee%20Management%20System2.uml#_Z2K-cKP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_adPlpKP_EeS6jbVv0VFO_w" name="Connection">
+          <modelElement href="Employee%20Management%20System2.uml#_Z0KzV6P_EeS6jbVv0VFO_w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_adPlpaP_EeS6jbVv0VFO_w" comments="_ac3LAKP_EeS6jbVv0VFO_w" targetConnectionVisual="_ac3LAaP_EeS6jbVv0VFO_w" name="getSQLBuilder">
+      <modelElement href="Employee%20Management%20System2.uml#_ZsEAMKP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_adPlpqP_EeS6jbVv0VFO_w" label="+"/>
+      <outParameters xmi:id="_adPlp6P_EeS6jbVv0VFO_w">
+        <modelElement href="Employee%20Management%20System2.uml#_Z1UC0KP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_adPlqKP_EeS6jbVv0VFO_w" name="SQLBuilder">
+          <modelElement href="Employee%20Management%20System2.uml#_ZsuukKP_EeS6jbVv0VFO_w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_adPlqaP_EeS6jbVv0VFO_w" comments="_ac3LAqP_EeS6jbVv0VFO_w" targetConnectionVisual="_ac3LA6P_EeS6jbVv0VFO_w" name="getTableName">
+      <modelElement href="Employee%20Management%20System2.uml#_ZsEAMaP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_adPlqqP_EeS6jbVv0VFO_w" label="+"/>
+      <outParameters xmi:id="_adPlq6P_EeS6jbVv0VFO_w">
+        <modelElement href="Employee%20Management%20System2.uml#_ZsEAMqP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_adPlrKP_EeS6jbVv0VFO_w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_adPlraP_EeS6jbVv0VFO_w" comments="_ac3LBKP_EeS6jbVv0VFO_w" targetConnectionVisual="_ac3LBaP_EeS6jbVv0VFO_w" name="getPrimaryKeyName">
+      <modelElement href="Employee%20Management%20System2.uml#_ZsEAM6P_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_adPlrqP_EeS6jbVv0VFO_w" label="+"/>
+      <outParameters xmi:id="_adPlr6P_EeS6jbVv0VFO_w">
+        <modelElement href="Employee%20Management%20System2.uml#_ZsEANKP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_adPlsKP_EeS6jbVv0VFO_w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_adPlsaP_EeS6jbVv0VFO_w" comments="_ac3LBqP_EeS6jbVv0VFO_w" targetConnectionVisual="_ac3LB6P_EeS6jbVv0VFO_w" name="isEmpty">
+      <modelElement href="Employee%20Management%20System2.uml#_ZsEANaP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_adPlsqP_EeS6jbVv0VFO_w" label="+"/>
+      <outParameters xmi:id="_adPls6P_EeS6jbVv0VFO_w">
+        <modelElement href="Employee%20Management%20System2.uml#_ZsEANqP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_adPltKP_EeS6jbVv0VFO_w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_adPltaP_EeS6jbVv0VFO_w" comments="_ac3LCKP_EeS6jbVv0VFO_w" targetConnectionVisual="_ac3LCaP_EeS6jbVv0VFO_w" name="clearData">
+      <modelElement href="Employee%20Management%20System2.uml#_ZsEAN6P_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_adPltqP_EeS6jbVv0VFO_w" label="+"/>
+    </operations>
+    <operations xmi:id="_adPlt6P_EeS6jbVv0VFO_w" comments="_ac3LCqP_EeS6jbVv0VFO_w" targetConnectionVisual="_ac3LC6P_EeS6jbVv0VFO_w" name="setDataValue">
+      <modelElement href="Employee%20Management%20System2.uml#_ZsEAOKP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_adPluKP_EeS6jbVv0VFO_w" label="+"/>
+      <parameters xmi:id="_adPluaP_EeS6jbVv0VFO_w" name="key">
+        <modelElement href="Employee%20Management%20System2.uml#_ZsEAOaP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_adPluqP_EeS6jbVv0VFO_w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_adPlu6P_EeS6jbVv0VFO_w" name="value">
+        <modelElement href="Employee%20Management%20System2.uml#_ZsKG0KP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_adPlvKP_EeS6jbVv0VFO_w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_adPlvaP_EeS6jbVv0VFO_w" comments="_ac3LDKP_EeS6jbVv0VFO_w" targetConnectionVisual="_ac3LDaP_EeS6jbVv0VFO_w" name="getDataValue">
+      <modelElement href="Employee%20Management%20System2.uml#_ZsKG0aP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_adPlvqP_EeS6jbVv0VFO_w" label="+"/>
+      <outParameters xmi:id="_adPlv6P_EeS6jbVv0VFO_w">
+        <modelElement href="Employee%20Management%20System2.uml#_ZsKG06P_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_adPlwKP_EeS6jbVv0VFO_w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_adPlwaP_EeS6jbVv0VFO_w" name="key">
+        <modelElement href="Employee%20Management%20System2.uml#_ZsKG0qP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_adPlwqP_EeS6jbVv0VFO_w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_adPlw6P_EeS6jbVv0VFO_w" comments="_ac9RoKP_EeS6jbVv0VFO_w" targetConnectionVisual="_ac9RoaP_EeS6jbVv0VFO_w" name="getDataList">
+      <modelElement href="Employee%20Management%20System2.uml#_ZsKG1KP_EeS6jbVv0VFO_w"/>
+      <stereotypes xmi:id="_adPlxKP_EeS6jbVv0VFO_w" name="Generics">
+        <modelElement href="Employee%20Management%20System2.uml#_ZsKG1qP_EeS6jbVv0VFO_w"/>
+      </stereotypes>
+      <visibility xmi:id="_adPlxaP_EeS6jbVv0VFO_w" label="+"/>
+      <outParameters xmi:id="_adPlxqP_EeS6jbVv0VFO_w">
+        <modelElement href="Employee%20Management%20System2.uml#_Z2K-dKP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_adPlx6P_EeS6jbVv0VFO_w" name="ArrayList">
+          <modelElement href="Employee%20Management%20System2.uml#_Z0EstaP_EeS6jbVv0VFO_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_adPlyKP_EeS6jbVv0VFO_w" name="where">
+        <modelElement href="Employee%20Management%20System2.uml#_ZsKG1aP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_adPlyaP_EeS6jbVv0VFO_w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_adPlyqP_EeS6jbVv0VFO_w" comments="_ac9RoqP_EeS6jbVv0VFO_w" targetConnectionVisual="_ac9Ro6P_EeS6jbVv0VFO_w" name="loadData">
+      <modelElement href="Employee%20Management%20System2.uml#_ZsKG16P_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_adPly6P_EeS6jbVv0VFO_w" label="+"/>
+      <parameters xmi:id="_adPlzKP_EeS6jbVv0VFO_w" name="pkValue">
+        <modelElement href="Employee%20Management%20System2.uml#_ZsKG2KP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_adPlzaP_EeS6jbVv0VFO_w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_adPlzqP_EeS6jbVv0VFO_w" comments="_ac9RpKP_EeS6jbVv0VFO_w" targetConnectionVisual="_ac9RpaP_EeS6jbVv0VFO_w" name="exists">
+      <modelElement href="Employee%20Management%20System2.uml#_ZsQNcKP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_adPlz6P_EeS6jbVv0VFO_w" label="+"/>
+      <outParameters xmi:id="_adPl0KP_EeS6jbVv0VFO_w">
+        <modelElement href="Employee%20Management%20System2.uml#_ZsQNcqP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_adPl0aP_EeS6jbVv0VFO_w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_adPl0qP_EeS6jbVv0VFO_w" name="where">
+        <modelElement href="Employee%20Management%20System2.uml#_ZsQNcaP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_adPl06P_EeS6jbVv0VFO_w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_adPl1KP_EeS6jbVv0VFO_w" comments="_ac9RpqP_EeS6jbVv0VFO_w" targetConnectionVisual="_ac9Rp6P_EeS6jbVv0VFO_w" name="save">
+      <modelElement href="Employee%20Management%20System2.uml#_ZsQNc6P_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_adPl1aP_EeS6jbVv0VFO_w" label="+"/>
+    </operations>
+    <operations xmi:id="_adPl1qP_EeS6jbVv0VFO_w" comments="_ac9RqKP_EeS6jbVv0VFO_w" targetConnectionVisual="_ac9RqaP_EeS6jbVv0VFO_w" name="delete">
+      <modelElement href="Employee%20Management%20System2.uml#_ZsQNdKP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_adPl16P_EeS6jbVv0VFO_w" label="+"/>
+    </operations>
+    <operations xmi:id="_adPl2KP_EeS6jbVv0VFO_w" comments="_ac9RqqP_EeS6jbVv0VFO_w" targetConnectionVisual="_ac9Rq6P_EeS6jbVv0VFO_w" name="insert">
+      <modelElement href="Employee%20Management%20System2.uml#_ZsQNdaP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_adPl2aP_EeS6jbVv0VFO_w" label="-"/>
+    </operations>
+    <operations xmi:id="_adPl2qP_EeS6jbVv0VFO_w" comments="_ac9RrKP_EeS6jbVv0VFO_w" targetConnectionVisual="_ac9RraP_EeS6jbVv0VFO_w" name="update">
+      <modelElement href="Employee%20Management%20System2.uml#_ZsQNdqP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_adPl26P_EeS6jbVv0VFO_w" label="-"/>
+    </operations>
+    <operations xmi:id="_adPl3KP_EeS6jbVv0VFO_w" comments="_ac9RrqP_EeS6jbVv0VFO_w" targetConnectionVisual="_ac9Rr6P_EeS6jbVv0VFO_w" name="executeQuery">
+      <modelElement href="Employee%20Management%20System2.uml#_ZsQNd6P_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_adPl3aP_EeS6jbVv0VFO_w" label="+"/>
+      <parameters xmi:id="_adPl3qP_EeS6jbVv0VFO_w" name="query">
+        <modelElement href="Employee%20Management%20System2.uml#_ZsQNeKP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_adPl36P_EeS6jbVv0VFO_w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_adPl4KP_EeS6jbVv0VFO_w" comments="_adDYQKP_EeS6jbVv0VFO_w" targetConnectionVisual="_adDYQaP_EeS6jbVv0VFO_w" name="Model">
+      <modelElement href="Employee%20Management%20System2.uml#_Z2E30KP_EeS6jbVv0VFO_w"/>
+      <keywords xmi:id="_adPl4aP_EeS6jbVv0VFO_w" keyword="create"/>
+      <visibility xmi:id="_adPl4qP_EeS6jbVv0VFO_w" label="+"/>
+      <outParameters xmi:id="_adPl46P_EeS6jbVv0VFO_w">
+        <modelElement href="Employee%20Management%20System2.uml#_Z2E31qP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_adPl5KP_EeS6jbVv0VFO_w" name="Model">
+          <modelElement href="Employee%20Management%20System2.uml#_Zr95kKP_EeS6jbVv0VFO_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_adPl5aP_EeS6jbVv0VFO_w" name="conn">
+        <modelElement href="Employee%20Management%20System2.uml#_Z2E30aP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_adPl5qP_EeS6jbVv0VFO_w" name="Connection">
+          <modelElement href="Employee%20Management%20System2.uml#_Z0KzV6P_EeS6jbVv0VFO_w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_adPl56P_EeS6jbVv0VFO_w" name="tblName">
+        <modelElement href="Employee%20Management%20System2.uml#_Z2E30qP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_adPl6KP_EeS6jbVv0VFO_w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_adPl6aP_EeS6jbVv0VFO_w" name="pkName">
+        <modelElement href="Employee%20Management%20System2.uml#_Z2E306P_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_adPl6qP_EeS6jbVv0VFO_w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_adPl66P_EeS6jbVv0VFO_w" comments="_adDYQqP_EeS6jbVv0VFO_w" targetConnectionVisual="_adDYQ6P_EeS6jbVv0VFO_w" name="setData">
+      <modelElement href="Employee%20Management%20System2.uml#_Z2K-caP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_adPl7KP_EeS6jbVv0VFO_w" label="+"/>
+      <parameters xmi:id="_adPl7aP_EeS6jbVv0VFO_w" name="data">
+        <modelElement href="Employee%20Management%20System2.uml#_Z2K-cqP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_adPl7qP_EeS6jbVv0VFO_w" name="HashMap">
+          <modelElement href="Employee%20Management%20System2.uml#_Z0pUcqP_EeS6jbVv0VFO_w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_aeAagKP_EeS6jbVv0VFO_w" name="View" associationsIn="_aduGoKP_EeS6jbVv0VFO_w _acewhaP_EeS6jbVv0VFO_w" associationsOut="_aduGoKP_EeS6jbVv0VFO_w _ad6T4KP_EeS6jbVv0VFO_w _ad6T6aP_EeS6jbVv0VFO_w _ad6T8qP_EeS6jbVv0VFO_w _ad6T-6P_EeS6jbVv0VFO_w">
+    <modelElement href="Employee%20Management%20System2.uml#_ZsWUEKP_EeS6jbVv0VFO_w"/>
+    <visualProperties xmi:id="_aeAagaP_EeS6jbVv0VFO_w" position="119.0,-368.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_aeAagqP_EeS6jbVv0VFO_w" name="LegacyStyledElement">
+      <modelElement href="Employee%20Management%20System2.uml#_ZscasKP_EeS6jbVv0VFO_w"/>
+    </stereotypes>
+    <stereotypes xmi:id="_aeAag6P_EeS6jbVv0VFO_w" name="Annotations">
+      <modelElement href="Employee%20Management%20System2.uml#_ZsihU6P_EeS6jbVv0VFO_w"/>
+    </stereotypes>
+    <visibility xmi:id="_aeAahKP_EeS6jbVv0VFO_w" label="+"/>
+    <attributes xmi:id="_aeAahaP_EeS6jbVv0VFO_w" name="parentView">
+      <modelElement href="Employee%20Management%20System2.uml#_Z3IAsKP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_aeAahqP_EeS6jbVv0VFO_w" label="#"/>
+      <cardinality xmi:id="_aeAah6P_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+      <type xmi:id="_aeAaiKP_EeS6jbVv0VFO_w" name="View">
+        <modelElement href="Employee%20Management%20System2.uml#_ZsWUEKP_EeS6jbVv0VFO_w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aeAaiaP_EeS6jbVv0VFO_w" name="screenSize">
+      <modelElement href="Employee%20Management%20System2.uml#_Z3IAsaP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_aeAaiqP_EeS6jbVv0VFO_w" label="#"/>
+      <cardinality xmi:id="_aeAai6P_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+      <type xmi:id="_aeAajKP_EeS6jbVv0VFO_w" name="Dimension">
+        <modelElement href="Employee%20Management%20System2.uml#_Z0jN0aP_EeS6jbVv0VFO_w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aeAajaP_EeS6jbVv0VFO_w" name="mainConstraints">
+      <modelElement href="Employee%20Management%20System2.uml#_Z3IAsqP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_aeAajqP_EeS6jbVv0VFO_w" label="#"/>
+      <cardinality xmi:id="_aeAaj6P_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+      <type xmi:id="_aeAakKP_EeS6jbVv0VFO_w" name="GridBagConstraints">
+        <modelElement href="Employee%20Management%20System2.uml#_Z0XAkqP_EeS6jbVv0VFO_w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aeAakaP_EeS6jbVv0VFO_w" name="mainLayout">
+      <modelElement href="Employee%20Management%20System2.uml#_Z3IAs6P_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_aeAakqP_EeS6jbVv0VFO_w" label="#"/>
+      <cardinality xmi:id="_aeAak6P_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+      <type xmi:id="_aeAalKP_EeS6jbVv0VFO_w" name="GridBagLayout">
+        <modelElement href="Employee%20Management%20System2.uml#_Z0jN1aP_EeS6jbVv0VFO_w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_aeAalaP_EeS6jbVv0VFO_w" name="mainPanel">
+      <modelElement href="Employee%20Management%20System2.uml#_Z3IAtKP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_aeAalqP_EeS6jbVv0VFO_w" label="#"/>
+      <cardinality xmi:id="_aeAal6P_EeS6jbVv0VFO_w" label="1" max="1" min="1"/>
+      <type xmi:id="_aeAamKP_EeS6jbVv0VFO_w" name="JPanel">
+        <modelElement href="Employee%20Management%20System2.uml#_Z0pUdqP_EeS6jbVv0VFO_w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_aeAamaP_EeS6jbVv0VFO_w" name="build">
+      <modelElement href="Employee%20Management%20System2.uml#_ZscasaP_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_aeAamqP_EeS6jbVv0VFO_w" label="#"/>
+    </operations>
+    <operations xmi:id="_aeAam6P_EeS6jbVv0VFO_w" comments="_aduGoaP_EeS6jbVv0VFO_w" targetConnectionVisual="_aduGoqP_EeS6jbVv0VFO_w" name="centerView">
+      <modelElement href="Employee%20Management%20System2.uml#_ZscasqP_EeS6jbVv0VFO_w"/>
+      <stereotypes xmi:id="_aeAanKP_EeS6jbVv0VFO_w" name="StyledElement">
+        <modelElement href="Employee%20Management%20System2.uml#_Zscas6P_EeS6jbVv0VFO_w"/>
+      </stereotypes>
+      <visibility xmi:id="_aeAanaP_EeS6jbVv0VFO_w" label="+"/>
+    </operations>
+    <operations xmi:id="_aeAanqP_EeS6jbVv0VFO_w" comments="_aduGo6P_EeS6jbVv0VFO_w" targetConnectionVisual="_aduGpKP_EeS6jbVv0VFO_w" name="showError">
+      <modelElement href="Employee%20Management%20System2.uml#_ZscatKP_EeS6jbVv0VFO_w"/>
+      <stereotypes xmi:id="_aeAan6P_EeS6jbVv0VFO_w" name="StyledElement">
+        <modelElement href="Employee%20Management%20System2.uml#_ZscatqP_EeS6jbVv0VFO_w"/>
+      </stereotypes>
+      <visibility xmi:id="_aeAaoKP_EeS6jbVv0VFO_w" label="+"/>
+      <parameters xmi:id="_aeAaoaP_EeS6jbVv0VFO_w" name="msg">
+        <modelElement href="Employee%20Management%20System2.uml#_ZscataP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_aeAaoqP_EeS6jbVv0VFO_w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aeAao6P_EeS6jbVv0VFO_w" comments="_aduGpaP_EeS6jbVv0VFO_w" targetConnectionVisual="_aduGpqP_EeS6jbVv0VFO_w" name="showSuccess">
+      <modelElement href="Employee%20Management%20System2.uml#_Zscat6P_EeS6jbVv0VFO_w"/>
+      <stereotypes xmi:id="_aeAapKP_EeS6jbVv0VFO_w" name="StyledElement">
+        <modelElement href="Employee%20Management%20System2.uml#_ZscauaP_EeS6jbVv0VFO_w"/>
+      </stereotypes>
+      <visibility xmi:id="_aeAapaP_EeS6jbVv0VFO_w" label="+"/>
+      <parameters xmi:id="_aeAapqP_EeS6jbVv0VFO_w" name="msg">
+        <modelElement href="Employee%20Management%20System2.uml#_ZscauKP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_aeAap6P_EeS6jbVv0VFO_w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aeAaqKP_EeS6jbVv0VFO_w" comments="_ad0NQKP_EeS6jbVv0VFO_w" targetConnectionVisual="_ad0NQaP_EeS6jbVv0VFO_w" name="showWarning">
+      <modelElement href="Employee%20Management%20System2.uml#_ZscauqP_EeS6jbVv0VFO_w"/>
+      <stereotypes xmi:id="_aeAaqaP_EeS6jbVv0VFO_w" name="StyledElement">
+        <modelElement href="Employee%20Management%20System2.uml#_ZsihUqP_EeS6jbVv0VFO_w"/>
+      </stereotypes>
+      <visibility xmi:id="_aeAaqqP_EeS6jbVv0VFO_w" label="+"/>
+      <outParameters xmi:id="_aeAaq6P_EeS6jbVv0VFO_w">
+        <modelElement href="Employee%20Management%20System2.uml#_ZsihUaP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_aeAarKP_EeS6jbVv0VFO_w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aeAaraP_EeS6jbVv0VFO_w" name="msg">
+        <modelElement href="Employee%20Management%20System2.uml#_ZsihUKP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_aeAarqP_EeS6jbVv0VFO_w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_aeAar6P_EeS6jbVv0VFO_w" comments="_ad0NQqP_EeS6jbVv0VFO_w" targetConnectionVisual="_ad0NQ6P_EeS6jbVv0VFO_w" name="View">
+      <modelElement href="Employee%20Management%20System2.uml#_Z1aJcqP_EeS6jbVv0VFO_w"/>
+      <keywords xmi:id="_aeAasKP_EeS6jbVv0VFO_w" keyword="create"/>
+      <stereotypes xmi:id="_aeAasaP_EeS6jbVv0VFO_w" name="StyledElement">
+        <modelElement href="Employee%20Management%20System2.uml#_Z1aJd6P_EeS6jbVv0VFO_w"/>
+      </stereotypes>
+      <visibility xmi:id="_aeAasqP_EeS6jbVv0VFO_w" label="+"/>
+      <outParameters xmi:id="_aeAas6P_EeS6jbVv0VFO_w">
+        <modelElement href="Employee%20Management%20System2.uml#_Z1aJdqP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_aeAatKP_EeS6jbVv0VFO_w" name="View">
+          <modelElement href="Employee%20Management%20System2.uml#_ZsWUEKP_EeS6jbVv0VFO_w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_aeAataP_EeS6jbVv0VFO_w" name="parentView">
+        <modelElement href="Employee%20Management%20System2.uml#_Z1aJc6P_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_aeAatqP_EeS6jbVv0VFO_w" name="View">
+          <modelElement href="Employee%20Management%20System2.uml#_ZsWUEKP_EeS6jbVv0VFO_w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_aeY1AKP_EeS6jbVv0VFO_w" name="db">
+    <modelElement href="Employee%20Management%20System2.uml#_Zm0T0aP_EeS6jbVv0VFO_w"/>
+    <visualProperties xmi:id="_aeY1AaP_EeS6jbVv0VFO_w" position="-22.0,323.0" size="-1.0,-1.0"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:PackageVisual" xmi:id="_aeY1AqP_EeS6jbVv0VFO_w" name="log">
+    <modelElement href="Employee%20Management%20System2.uml#_ZnS08qP_EeS6jbVv0VFO_w"/>
+    <visualProperties xmi:id="_aeY1A6P_EeS6jbVv0VFO_w" position="-22.0,443.0" size="-1.0,-1.0"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

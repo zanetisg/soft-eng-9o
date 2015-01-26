@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_aHPgUaP_EeS6jbVv0VFO_w">
+  <modelElement href="Employee%20Management%20System2.uml#_ZnS08qP_EeS6jbVv0VFO_w"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_cRX1kKP_EeS6jbVv0VFO_w" name="Log">
+    <modelElement href="Employee%20Management%20System2.uml#_ZtHJEqP_EeS6jbVv0VFO_w"/>
+    <visualProperties xmi:id="_cRX1kaP_EeS6jbVv0VFO_w" position="50.0,50.0"/>
+    <visibility xmi:id="_cRX1kqP_EeS6jbVv0VFO_w" label="+"/>
+    <operations xmi:id="_cRX1k6P_EeS6jbVv0VFO_w" name="msg" staticOperation="true">
+      <modelElement href="Employee%20Management%20System2.uml#_ZtHJE6P_EeS6jbVv0VFO_w"/>
+      <visibility xmi:id="_cRX1lKP_EeS6jbVv0VFO_w" label="+"/>
+      <parameters xmi:id="_cRX1laP_EeS6jbVv0VFO_w" name="msg">
+        <modelElement href="Employee%20Management%20System2.uml#_ZtHJFKP_EeS6jbVv0VFO_w"/>
+        <type xmi:id="_cRX1lqP_EeS6jbVv0VFO_w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
